@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'AZViewBlock_Example', :exclusive => true do
+  pod 'AZViewBlock', :path => '../'
+end
+
+target 'AZViewBlock_Tests', :exclusive => true do
+  pod 'AZViewBlock', :path => '../'
+
+  
+end
