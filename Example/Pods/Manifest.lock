@@ -1,0 +1,14 @@
+PODS:
+  - AZViewBlock (0.1.0)
+
+DEPENDENCIES:
+  - AZViewBlock (from `../`)
+
+EXTERNAL SOURCES:
+  AZViewBlock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AZViewBlock: 2abf4cdb1c7963f74e68a49b955ff5c7a910f0c9
+
+COCOAPODS: 0.39.0

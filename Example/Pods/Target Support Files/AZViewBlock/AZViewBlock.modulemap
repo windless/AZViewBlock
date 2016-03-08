@@ -1,0 +1,6 @@
+framework module AZViewBlock {
+  umbrella header "AZViewBlock-umbrella.h"
+
+  export *
+  module * { export * }
+}

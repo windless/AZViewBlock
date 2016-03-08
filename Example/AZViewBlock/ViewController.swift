@@ -7,8 +7,38 @@
 //
 
 import UIKit
+import AZViewBlock
 
 class ViewController: UIViewController {
+    
+    override func loadView() {
+        super.loadView()
+        
+        self.view.open { v in
+            v.view(UILabel.self) { v in
+                v.label { v in
+                }
+                
+                v.imageView { v in
+                }
+                
+                v.view { v in
+                }
+                
+                v.textField { v in
+                }
+                
+                v.tableView(.Plain) { v in
+                }
+                
+                v.button { v in
+                }
+                
+                v.button(.Custom) { v in
+                }
+            }
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +47,6 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }
